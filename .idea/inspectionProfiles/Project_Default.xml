@@ -1,6 +1,12 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="net/http" name="Get" />
+        <function importPath="net/http" name="Head" />
+      </functions>
+    </inspection_tool>
     <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
       <functions>
         <function importPath="fmt" name="Print" />
@@ -27,6 +33,7 @@
         <method importPath="net" receiver="Conn" name="Close" />
         <method importPath="bufio" receiver="*Writer" name="Flush" />
         <method importPath="os/exec" receiver="*Cmd" name="Run" />
+        <method importPath="io" receiver="ReadCloser" name="Close" />
       </methods>
     </inspection_tool>
   </profile>
