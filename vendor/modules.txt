@@ -1,3 +1,11 @@
 # github.com/blackhat-go/bhg v0.0.0-20230306164658-7d3318a7a60b
 ## explicit; go 1.14
 github.com/blackhat-go/bhg/ch-3/shodan/shodan
+# github.com/golang/protobuf v1.5.2
+## explicit; go 1.9
+# google.golang.org/appengine v1.6.8
+## explicit; go 1.11
+# google.golang.org/protobuf v1.26.0
+## explicit; go 1.9
+# gopkg.in/vmihailenco/msgpack.v2 v2.9.2
+## explicit

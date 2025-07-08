@@ -15,12 +15,11 @@ type Metasploit struct {
 	token string
 }
 
-func New(host, user, pass, token string) (*Metasploit, error) {
+func New(host, user, pass string) (*Metasploit, error) {
 	msf := &Metasploit{
-		host:  host,
-		user:  user,
-		pass:  pass,
-		token: token,
+		host: host,
+		user: user,
+		pass: pass,
 	}
 
 	if err := msf.Login(); err != nil {

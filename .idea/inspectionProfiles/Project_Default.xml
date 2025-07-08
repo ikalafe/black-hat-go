@@ -34,6 +34,8 @@
         <method importPath="bufio" receiver="*Writer" name="Flush" />
         <method importPath="os/exec" receiver="*Cmd" name="Run" />
         <method importPath="io" receiver="ReadCloser" name="Close" />
+        <method importPath="gopkg.in/vmihailenco/msgpack.v2" receiver="*Encoder" name="Encode" />
+        <method importPath="ch3/metasploit-minimal/client" receiver="*Metasploit" name="Logout" />
       </methods>
     </inspection_tool>
   </profile>
